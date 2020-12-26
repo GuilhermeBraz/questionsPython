@@ -1,5 +1,4 @@
-# Dado uma lista de dicionários (chave/valor) Python, verifique se existe a chave 'nome', e caso exista,
-# salve o valor dessa chave em uma segunda lista, de modo que não haja repetição de valores na segunda lista.
+#Function to search for value in list
 def find_value(search_value, item):
     if search_value in item:
         return True
@@ -15,10 +14,10 @@ for p in range(n):
     dic_list.append( dict(input().split() for i in range(d)) )
 
 #check if key given by user exists in the dictionary list
-# r = int(input('Type search range:\n'))
-# for i in range(r):
 search_key = input('By what key you want to search ?\n')
-key_list = [] #list of keys that were found in the list
+key_list = []   #list of keys that were found in the list
+
+#loop to append the value you want to search on the list of found keys
 for dic in dic_list:
     if find_value(search_key, dic) and not(find_value(search_key, key_list)):
         # print(search_key)

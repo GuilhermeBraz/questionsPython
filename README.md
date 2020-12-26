@@ -1,5 +1,10 @@
 ## Problema 1:
 Dado uma lista de dicionários (chave/valor) Python, verifique se existe a chave 'nome', e caso exista, salve o valor dessa chave em uma segunda lista, de modo que não haja repetição de valores na segunda lista.
+Segue imagem a seguir com codigo comentado:
+
+
+![Drag Racing](1py.png)
+
 
 ## Problema 2:
 Dado um arquivo csv com delimitador ';' e com o seguinte cabeçalho: id;nome;telefone;idade. 
@@ -13,3 +18,8 @@ Id;nome;telefone;idade
 .
 .
 N;Zzzz;99999999;12
+
+Segue imagem a seguir com codigo comentado:
+
+
+![Drag Racing](2py.png)
